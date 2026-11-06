@@ -49,8 +49,8 @@ test('Formulário: validação e mensagem completa sem envio automático',async(
 test('Galeria: abrir, navegar, Escape e restaurar foco',async({page})=>{
  await page.goto('/');const first=page.getByRole('button',{name:'Ampliar O ambiente, imagem ilustrativa'});await first.click();
  const dialog=page.getByRole('dialog');await expect(dialog).toBeVisible();
- await page.getByRole('button',{name:'Próxima imagem'}).click();await expect(dialog.locator('img')).toHaveAttribute('src','/images/service-1.webp');
- await page.keyboard.press('ArrowLeft');await expect(dialog.locator('img')).toHaveAttribute('src','/images/workshop.webp');
+ await page.getByRole('button',{name:'Próxima imagem'}).click();await expect(dialog.locator('img')).toHaveAttribute('src','/images/premium/service-1.webp');
+ await page.keyboard.press('ArrowLeft');await expect(dialog.locator('img')).toHaveAttribute('src','/images/premium/workshop.webp');
  await page.keyboard.press('Escape');await expect(dialog).not.toBeVisible();await expect(first).toBeFocused();
 });
 test('Menu mobile e movimento reduzido',async({page})=>{

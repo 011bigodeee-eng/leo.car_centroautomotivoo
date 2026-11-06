@@ -38,7 +38,7 @@ Há verificações de layout em 320, 375, 390, 430, 768, 1024, 1440 e 1920 px, s
 - Interface: `src/components/Landing.tsx`.
 - Estilos e animações responsivas: `src/app/globals.css`.
 - Metadados: `src/app/layout.tsx`.
-- Fotografias: `public/images/`, todas em WebP e identificadas como ilustrativas.
+- Fotografias: `public/images/premium/`, todas em WebP e identificadas como ilustrativas.
 - Fontes locais: Barlow Condensed e Manrope, licenciadas sob SIL Open Font License; licenças em `src/app/fonts/`.
 - A assinatura tipográfica Leo Car é uma proposta visual para esta prévia, não uma reprodução de um logotipo oficial verificado.
 
@@ -57,6 +57,6 @@ O formulário valida os dados no navegador e abre `wa.me` com a mensagem preench
 
 ## Imagens
 
-Hero desktop e mobile foram geradas separadamente. Os oito serviços e o ambiente foram criados em um estudo fotográfico com nove painéis e exportados individualmente em WebP. O conjunto de imagens possui aproximadamente 540 KB. Todas ficam no projeto: não existe dependência de um banco externo de fotografias.
+Todas as 11 imagens foram geradas individualmente por IA e exportadas para WebP com qualidade 94, preservando sua resolução nativa e sem ampliação artificial. Hero desktop: 1672 × 941 px; hero mobile: 1122 × 1402 px. Serviços e ambiente: 1536 × 1024 ou 1672 × 941 px, substituindo os antigos recortes de 483 px. A hero desktop possui cerca de 263 KB e a mobile, 241 KB. O conjunto completo possui aproximadamente 3,6 MB e as imagens fora da hero usam carregamento lazy. O otimizador Next.js está configurado para qualidade 90. O caminho `public/images/premium/` evita reutilizar o cache das imagens anteriores. Todas ficam no projeto: não existe dependência de um banco externo de fotografias.
 
 As imagens de conceito podem permanecer nas campanhas somente com identificação adequada. A galeria institucional final deve receber registros reais, com revisão dos textos que hoje explicam a prévia.

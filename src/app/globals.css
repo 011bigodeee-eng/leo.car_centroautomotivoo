@@ -8,3 +8,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.intro{display:none!important}.reveal{opacity:1!important;transform:none!important}}
 
 .hero.intro-pending h1{animation-delay:1.3s}.hero:not(.intro-pending) .hero-image img{animation-delay:0s}
+
+/* Preserve the complete car at the right edge of the new campaign photograph. */
+@media(min-width:641px){.hero-image img{object-position:right center}}
