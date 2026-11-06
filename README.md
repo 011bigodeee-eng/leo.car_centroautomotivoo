@@ -52,7 +52,7 @@ O formulário valida os dados no navegador e abre `wa.me` com a mensagem preench
 4. Confirmar a história de Leonardo e o tempo de atuação antes de acrescentar esses dados. Não foram incluídos números, depoimentos, certificações ou garantias não verificadas.
 5. Configurar `NEXT_PUBLIC_SITE_URL` com o domínio final antes do build. O padrão atual é o endereço de site informado no briefing (`https://leocar.pages.dev`), usado apenas como base de imagens Open Graph. O domínio final de publicação ainda precisa ser validado.
 6. Após aprovação do conteúdo, mudar `robots` de `noindex` para indexação em `layout.tsx` e adicionar dados estruturados LocalBusiness somente com dados confirmados.
-7. Validar o mapa, Instagram, rotas e a abertura do aplicativo WhatsApp em um dispositivo com acesso a esses destinos. O ambiente restringe Google Maps e Instagram; há um link de localização independente do iframe.
+7. Validar o mapa, Instagram, rotas e a abertura do aplicativo WhatsApp em um dispositivo com acesso a esses destinos. O ambiente restringe Google Maps e Instagram; o mapa interativo é carregado sob demanda e há um link de localização independente do iframe.
 8. Medir Core Web Vitals no domínio publicado. As metas do briefing não são resultados medidos nem garantidos.
 
 ## Imagens
